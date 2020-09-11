@@ -22,12 +22,10 @@ export function Hero() {
         </div>
       </div>
       <div className="flex flex-col items-center pt-32 pb-32">
-        <h1 className="z-20 text-6xl italic text-white text-bold">
-          Vinícola Milani
-        </h1>
-        <p className="z-20 text-lg italic text-white text-bold">
+        <h1 className="z-20 text-6xl text-white text-bold">Vinícola Milani</h1>
+        <h1 className="z-20 text-xl text-white text-bold">
           O sabor da Serra Gaúcha
-        </p>
+        </h1>
       </div>
     </div>
   )

@@ -8,6 +8,13 @@
   background-repeat: no-repeat;
 }
 
+.fundo2 {
+  background-image: url('/fundorodape.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
 .title-header::after {
   position: absolute;
   height: 1px;
@@ -17,6 +24,14 @@
   content: ' ';
   background-color: #333;
   transform: translateX(-50%);
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+h2 {
+  font-family: 'Patrick Hand', cursive;
 }
 
 * {
